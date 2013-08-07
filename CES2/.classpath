@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="FFSystem"/>
+	<classpathentry kind="src" path="DataConvert"/>
+	<classpathentry kind="src" path="ClassifyBussiness"/>
+	<classpathentry kind="src" path="SystemFramework"/>
+	<classpathentry kind="src" path="GUI"/>
+	<classpathentry kind="src" path="XMLAccess"/>
+	<classpathentry kind="src" path="EstimateSystem"/>
+	<classpathentry kind="src" path="DiscardClass"/>
+	<classpathentry kind="src" path="Excel"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/ArcGIS/Desktop10.1/java/lib/arcobjects.jar"/>
+	<classpathentry kind="lib" path="E:/3 VonSourceCode/workspace/CES2/Lib/poi-2.5.1-final-20040804.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.core.commands_3.6.0.I20110111-0800.jar"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.core.runtime_3.7.0.v20110110.jar"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.equinox.common_3.6.0.v20110523.jar"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.jface.text_3.7.0.v20110505-0800.jar"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.jface_3.7.0.I20110522-1430.jar"/>
+	<classpathentry kind="lib" path="E:/VonDevTools/eclipse3.7_x86/plugins/org.eclipse.osgi_3.7.0.v20110613.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

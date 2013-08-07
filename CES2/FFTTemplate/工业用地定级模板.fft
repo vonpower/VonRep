@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFTable xmlns="http://my.opera.com/VonPower/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://my.opera.com/VonPower/ FFT.xsd" Name="工业用地定级模板">
+	<FactorCatalog Name="繁华程度" Weight="1.0E0">
+		<BasicFactor Name="商服繁华影响度" Weight="1.0E0">
+			<BasicFacet Name="商服中心" Weight="1.0E0"  Formula="0"/>
+			<BasicFacet Name="农贸市场" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+	</FactorCatalog>
+	<FactorCatalog Name="交通条件" Weight="1.0E0">
+		<BasicFactor Name="道路通达度" Weight="1.0E0">
+			<BasicFacet Name="道路类型" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+		<BasicFactor Name="对外交通便利度" Weight="1.0E0">
+			<BasicFacet Name="汽车站_货运" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+	</FactorCatalog>
+	<FactorCatalog Name="基本设施" Weight="1.0E0">
+		<BasicFactor Name="基础设施完善度" Weight="1.0E0">
+			<BasicFacet Name="供水" Weight="1.0E0"  Formula="0"/>
+			<BasicFacet Name="电讯" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+	</FactorCatalog>
+	<FactorCatalog Name="环境条件" Weight="1.0E0">
+		<BasicFactor Name="自然条件优劣度" Weight="1.0E0">
+			<BasicFacet Name="地形坡度" Weight="1.0E0"  Formula="0"/>
+			<BasicFacet Name="土地承载力" Weight="1.0E0"  Formula="0"/>
+			<BasicFacet Name="洪水淹没状况" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+	</FactorCatalog>
+	<FactorCatalog Name="产业集聚效益" Weight="1.0E0">
+		<BasicFactor Name="产业集聚影响度" Weight="1.0E0">
+			<BasicFacet Name="产业集聚_工业" Weight="1.0E0"  Formula="0"/>
+		</BasicFactor>
+	</FactorCatalog>
+</FFTable>

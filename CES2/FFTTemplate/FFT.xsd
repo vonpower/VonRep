@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vonpower (ynugis) -->
+<xs:schema xmlns="http://my.opera.com/VonPower/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://my.opera.com/VonPower/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="FFTable">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="FactorCatalog">
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:element name="BasicFactor">
+								<xs:complexType>
+									<xs:sequence maxOccurs="unbounded">
+										<xs:element name="BasicFacet">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="DataPath" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+													<xs:element name="DerivedFacet" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="DataPath" type="xs:string" maxOccurs="unbounded"/>
+															</xs:sequence>
+															<xs:attribute name="Name" type="xs:string" use="required"/>
+															<xs:attribute name="Weight" type="xs:double" use="required"/>
+															<xs:attribute name="Formula" type="xs:int" use="required"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="Name" type="xs:string" use="required"/>
+												<xs:attribute name="Weight" type="xs:double" use="required"/>
+												<xs:attribute name="Formula" type="xs:int" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="Name" type="xs:string" use="required"/>
+									<xs:attribute name="Weight" type="xs:double" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="Name" type="xs:string" use="required"/>
+						<xs:attribute name="Weight" type="xs:double" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

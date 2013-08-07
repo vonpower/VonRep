@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vonpower (ynugis) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="ClassifyProject">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="projectName" type="xs:string"/>
+				<xs:element name="workspace" type="xs:string"/>
+				<xs:element name="tempDirectory" type="xs:string"/>
+				<xs:element name="projectDescription" type="xs:string" minOccurs="0"/>
+				<xs:element name="classifyRangePath" type="xs:string" minOccurs="0"/>
+				<xs:element name="obstructPath" type="xs:string" minOccurs="0"/>
+				<xs:element name="cellSize" type="xs:double"/>
+				<xs:element name="bgMapPath" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="FFTable" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

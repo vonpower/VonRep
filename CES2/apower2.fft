@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFTable Name="apower2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://apower.blogone.net"><FactorCatalog Name="繁华程度" Weight="1"><BasicFactor Name="商服繁华影响度" Weight="1"><BasicFacet Name="商" Weight="1" Formula="0"><DataPath>E:\版纳数据\int\ShapeFiles\农贸市场.shp</DataPath></BasicFacet></BasicFactor></FactorCatalog></FFTable>

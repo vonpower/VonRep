@@ -1,0 +1,13 @@
+#Fat Jar Configuration File
+#Mon Apr 07 14:47:28 CST 2003
+onejar.license.required=false
+manifest.classpath=
+onejar.checkbox=false
+jarname=C\:\\Documents and Settings\\Administrator\\\u684C\u9762\\ynugis2.jar
+manifest.mergeall=false
+manifest.mainclass=ynugis.application.CESApplication
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=<jar|org.eclipse.draw2d_3.1.0.jar>
+includes=

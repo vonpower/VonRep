@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Class-Path: ./lib/org.eclipse.core.runtime_3.1.0.jar ./lib/org.eclipse
+ .jface_3.1.0.jar ./lib/org.eclipse.swt.win32.win32.x86_3.1.0.jar ./li
+ b/arcobjects.jar ./lib/dnsns.jar ./lib/jintegra.jar ./lib/ldapsec.jar
+  ./lib/localedata.jar ./lib/sunjce_provider.jar ./lib/arcgis_visualbe
+ ans.jar ./lib/poi-2.5.1-final-20040804.jar ./lib/charsets.jar ./lib/j
+ ce.jar ./lib/jsse.jar ./lib/rt.jar ./lib/sunrsasign.jar ./lib/sunjce_
+ provider.jar
+Main-Class: ynugis.application.CESApplication
+
